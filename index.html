@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bulma cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <!-- awesome font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- mon style -->
+    <link rel="stylesheet" href="style.css">
+   <!--  -->
+    <title>Bookmarker</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title is-3" id="titre" >Bookmarker</h1>
+        <span class="icon-text">
+            <span class="icon">
+              <i class="fas fa-home"></i>
+            </span>
+            <span>Home</span>
+          </span>
+
+          <!-- formulaire -->
+          <div class="block">
+          <!-- ligne de séparation -->
+          <hr id="ligne">
+            <form id="monFormulaire" class="has-background-light">
+                <div class="field">
+                    <label class="is-size-3" id="formTitre">Bookmark Your Favorites Sites</label>
+                    <div class="field">
+                        <label class="is-size-4">Site Name</label>
+                        <div class="control">
+                          <input class="input" type="text" placeholder="Website Name" id="Name">
+                        </div>
+                        <p class="help" id="NameHelp"></p>
+                    </div>
+                    <div class="field">
+                        <label class="is-size-4">Site URL</label>
+                        <div class="control">
+                          <input class="input" type="text" placeholder="Website URL" id="URL">
+                        </div>
+                        <p class="help" id="URLHelp"></p>
+                    </div>
+                    <button class="button is-info is-large" type="submit">Submit</button>
+                </div>
+            </form>
+          </div>
+          <!-- fin du formulaire -->
+          <div class="container" id="favorite">
+
+          </div>
+    </div>
+     <!-- source javascript -->
+     <script src="main.js"></script>
+</body>
+</html>

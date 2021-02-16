@@ -1,0 +1,18 @@
+#titre{
+    margin-top: 20px;
+    align-content: center;
+    color: grey;
+}
+#id{
+    color: rgb(49, 48, 48);
+}
+#ligne{
+    width:60%;
+    text-align:left;
+    margin-left:0
+}
+#monFormulaire{
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
